@@ -23,18 +23,24 @@ This project demonstrates:
 **2️⃣ Compile the Program**
 Use the provided Makefile to compile everything: 
 
-``make``
+```
+make
+```
 
 **3️⃣ Run**
 
 Compress a File
 
-``./compress input.txt compressed.bin
+```
+./compress input.txt compressed.bin
+```
 
 input.txt can be change to name of the input file
 
 Decompress a file
-`./uncompress compressed.bin output.txt`
+```
+./uncompress compressed.bin output.txt
+```
 
 ## 📊 Performance & Optimization
 Tree-based header format reduces file size vs. naïve frequency tables.
